@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="containerRow">
+      <div class="row">
+        <img src="./img/hatching-chick.png" alt="emoji pollito" />
+      </div>
+      <div class="row">
+        <div class="rowLogin">
+          <div class="titleLogin">
+            <h2>Iniciar Sesión</h2>
+            <div>
+              <img src="./img/cyclone.png" alt="" />
+            </div>
+          </div>
+          <form class="formLogin" id="formLogin">
+            <input
+              type="email"
+              class="formInput"
+              name="email"
+              id="email"
+              placeholder="Email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              size="30"
+              required
+            />
+            <input
+              class="formInput"
+              type="password"
+              name="pass"
+              id="pass"
+              placeholder="Password"
+            />
+            <input type="submit" name="" id="" value="Login" class="btnLogin" />
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <img src="./img/sunglasses-emoji.png" alt="emoji gafas" />
+      </div>
+    </div>
+    <script src="fakeValidation.js"></script>
+  </body>
+</html>
